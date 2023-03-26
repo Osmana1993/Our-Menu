@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+   
+}
+.container{
+    position: relative;
+    
+}
+h1{
+    text-align: center;
+}
+.check{
+    border: 1px solid black;
+    width: 30%;
+    padding-left: 30px;
+    margin-left: 30px;
+    background-color: #999999;
+    margin-top: -9px;
+    border: 2px solid black;
+   
+    
+}
+.beef{
+    border: 1px solid black;
+    width: 30%;
+    position: absolute;
+    top: 57px;
+    left: 35%;
+    background-color: #999999;
+    border: 2px solid black;
+    
+    
+}
+p{
+    margin-left: 30px;
+}
+.sushi{
+    border: 1px solid black;
+    width: 30%;
+    position: absolute;
+    top: 57px;
+    left: 67%;
+    background-color: #999999;
+    border: 2px solid black;
+    
+    
+    
+}
+h3{
+    float: right;
+    width: fit-content;
+    margin-top: 0px;   
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+}
+.sushi h3{
+    background-color:#e5d198;
+}
+.check h3{
+    background-color:#d59898;
+}
+.beef h3{
+    background-color:#c14543;
+}
+@media (min-width:992px){
+    .sushi{
+        width:30%
+    }
+    .check{
+        width:30%
+    }
+    .beef{
+        width:30%
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .sushi{
+        width:40%
+    }
+    .check{
+        width:40%
+    }
+    .beef{
+        width:90%
+    }
+}
+@media (max-width:767px){
+    .sushi{
+        width:90%
+    }
+    .check{
+        width:90%
+    }
+    .beef{
+        width:90%
+    }
+}
